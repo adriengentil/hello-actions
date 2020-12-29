@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - name: Docker login
-      uses: adriengentil/common-action@v2
+      uses: adriengentil/common-action@master
       with: # Set the secret as an input
         dockerhub-password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
